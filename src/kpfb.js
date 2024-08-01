@@ -57,6 +57,7 @@ class kpfb {
 		kpfb_button.style.width = "48px";
 		kpfb_button.style.height = "48px";
 		kpfb_button.style.paddingRight = "10px";
+		kpfb_button.title = "Watch on Flicksbar";
 
 		const img = chrome.runtime.getURL("icons/kpfb-48.png");
 		kpfb_button.src = img;
